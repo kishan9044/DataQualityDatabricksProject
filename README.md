@@ -10,4 +10,3 @@ This is an real time data quality and validation project using Databricks Notebo
 * During this project created Mount points, Notebook Parameters, made use of provided config. JSON document performed Duplicate Checks, NULL Checks, Negative Checks, Date Format Checks, Datatype Checks on columns, Column name Checks, Data Integrity Checks, Audit table creation.
 * Wrote good records to silver layer, rejected records to Rejected layer and audit records to audit layer in the BLOB storage.
 * Created two notebook parameters “config_filepath” and “processed_date” which enables the input to be provided while using the Databricks Notebook Activity in pipeline.
-![image](https://github.com/kishan9044/DataQualityDatabricksProject/assets/134960705/c0e218fc-a19f-4746-be64-46429d033820)

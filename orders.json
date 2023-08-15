@@ -1,0 +1,12 @@
+{
+"sourcefile":"/mnt/dataquaility-data/india/bronze/orders/",
+"targetfile":"/mnt/dataquaility-data/india/silver/orders/",
+"pendingfile":"/mnt/dataquaility-data/india/rejected/orders/",
+"auditfile":"/mnt/dataquaility-data/india/auditdata/orders/",
+"duplicate_check":"yes",
+"null_check":["ordername","email"],
+"no_negative_value":["orderprice"],
+"dateformatchecks":["orderdate"],
+"required_cols":["ordername","email","orderaddress","orderdate","orderprice"],
+"cols_datatype":[{"orderdate":"date","orderprice":"int"}]
+}  
